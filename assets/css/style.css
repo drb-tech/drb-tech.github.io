@@ -1,0 +1,63 @@
+/* Basic Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2D6A4F;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .hero {
+    background-color: #2D6A4F;
+    color: #FFF;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .cta-button {
+    background-color: #74C69D;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .intro, .about-mission, .timeline, .services, .contact-us {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-info iframe {
+    width: 100%;
+    height: 300px;
+  }
+  
+  footer {
+    background-color: #2D6A4F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 1.8em;
+    }
+  
+    nav ul {
+      display: block;
+      text-align: center;
+    }
+  }
+  
