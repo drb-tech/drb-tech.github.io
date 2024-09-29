@@ -1,64 +1,1150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Coming Soon - DRB Tech">
-  <title>Coming Soon - DRB</title>
 
-  <!-- Add Google Fonts for Fivo Sans Modern and Grahik Arabic -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fivo+Sans+Modern:wght@700&family=Grahik:wght@400&display=swap">
-  <!--  Add Icon of the website -->
-  <link rel="icon" href="assets/images/icon.png" type="image/png">
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: 'Grahik', sans-serif;
-      background-color: #192D2A;
-      color: white;
-      margin: 0;
-      text-align: center;
-      flex-direction: column;
-    }
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>DRB Technology</title>
+    <meta name="description" content>
+    <meta name="keywords" content>
 
-    h1 {
-      font-family: 'Fivo Sans Modern', sans-serif;
-      font-size: 3em;
-      margin-bottom: 20px;
-    }
+    <!-- Favicons -->
+    <link href="assets/img/icon.png" rel="icon">
+    <link href="assets/img/icon.png" rel="apple-touch-icon">
 
-    p {
-      font-size: 1.5em;
-      margin-bottom: 10px;
-    }
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet">
 
-    .logo {
-      width: 150px;
-      margin-bottom: 20px;
-    }
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    .slogan {
-      font-family: 'Grahik', sans-serif;
-      font-size: 1.2em;
-      margin-top: 20px;
-      color: #74C69D;
-    }
-  </style>
-</head>
-<body>
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- Add the DRB logo -->
-  <img src="assets/images/drb-logo.png" alt="DRB Logo" class="logo">
+  </head>
 
-  <h1>Coming Soon</h1>
-  <p>Our website is under construction. Stay tuned!</p>
+  <body class="index-page">
 
-  <!-- Slogan -->
-  <p class="slogan">A SAFE WAY TO THEIR DREAMS</p>
-  
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center">
 
-</body>
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+            <li><a href="#team">Team</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li> -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="btn-getstarted" href="starter-page.html">Get Started</a>
+
+      </div>
+    </header>
+
+    <main class="main">
+
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+              data-aos="zoom-out">
+              <h1>A SAFE WAY TO THEIR DREAMS</h1>
+              <p>Empowering the automotive, supply chain, and transportation
+                industries with cutting-edge technology.</p>
+              <div class="d-flex">
+                <a href="starter-page.html" class="btn-get-started">Get
+                  Started</a>
+                <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img"
+              data-aos="zoom-out" data-aos-delay="200">
+              <img src="assets/img/hero-img.png" class="img-fluid animated" alt>
+            </div>
+          </div>
+        </div>
+
+      </section><!-- /Hero Section -->
+
+      <!-- Clients Section -->
+      <section id="clients" class="clients section light-background">
+
+        <div class="container" data-aos="zoom-in">
+
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  },
+                  "480": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 60
+                  },
+                  "640": {
+                    "slidesPerView": 4,
+                    "spaceBetween": 80
+                  },
+                  "992": {
+                    "slidesPerView": 5,
+                    "spaceBetween": 120
+                  },
+                  "1200": {
+                    "slidesPerView": 6,
+                    "spaceBetween": 120
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><img
+                  src="assets/img/clients/client-1.png" class="img-fluid"
+                  alt></div>
+              <div class="swiper-slide"><img
+                  src="assets/img/clients/client-2.png" class="img-fluid"
+                  alt></div>
+              <div class="swiper-slide"><img
+                  src="assets/img/clients/client-3.png" class="img-fluid"
+                  alt></div>
+              <div class="swiper-slide"><img
+                  src="assets/img/clients/client-4.png" class="img-fluid"
+                  alt></div>
+              <div class="swiper-slide"><img
+                  src="assets/img/clients/client-5.png" class="img-fluid"
+                  alt></div>
+              <div class="swiper-slide"><img
+                  src="assets/img/clients/client-6.png" class="img-fluid"
+                  alt></div>
+              <div class="swiper-slide"><img
+                  src="assets/img/clients/client-7.png" class="img-fluid"
+                  alt></div>
+              <div class="swiper-slide"><img
+                  src="assets/img/clients/client-8.png" class="img-fluid"
+                  alt></div>
+            </div>
+          </div>
+
+        </div>
+
+      </section><!-- /Clients Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About Us</h2>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6 content" data-aos="fade-up"
+              data-aos-delay="100">
+              <p>
+                DRB is a technology-driven startup leading the way in the
+                automotive, supply chain, and transportation sectors. We design
+                and deliver innovative software and hardware solutions that
+                empower businesses to achieve operational excellence. Our
+                comprehensive fleet management systems are tailored to the
+                specific needs of our clients, allowing them to optimize
+                efficiency, reduce costs, and enhance safety.
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-circle"></i> <span>Drive innovation
+                    in fleet management through advanced technology.</span></li>
+                <li><i class="bi bi-check2-circle"></i> <span>Deliver
+                    intelligent fleet solutions that streamline
+                    operations.</span></li>
+                <li><i class="bi bi-check2-circle"></i> <span>Revolutionize how
+                    organizations manage their vehicles and drivers.</span></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <p>Our mission is to provide organizations with powerful, flexible
+                fleet monitoring systems that enhance safety, boost operational
+                performance, and adapt to evolving needs. From school buses to
+                ambulances and rental vehicles, our solutions cater to a wide
+                range of industries, ensuring each fleet operates efficiently
+                with minimal risks.</p>
+              <a href="portfolio-details.html" class="read-more"><span>Read
+                  More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </section><!-- /About Section -->
+
+      <!-- Why Us Section -->
+      <section id="why-us" class="section why-us light-background"
+        data-builder="section">
+        <div class="container-fluid">
+          <div class="row gy-4">
+            <!-- Text Section -->
+            <div
+              class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+              <div class="content px-xl-5" data-aos="fade-up"
+                data-aos-delay="100">
+                <h3><span>Why Choose DRB? </span><strong>Innovative Fleet
+                    Management for Tomorrow's Challenges</strong></h3>
+                <p>
+                  At DRB, we provide forward-thinking, tech-driven solutions
+                  that help businesses in the transportation, supply chain, and
+                  automotive industries optimize operations, reduce
+                  inefficiencies, and create a sustainable future. Our fleet
+                  management systems are designed to ensure maximum efficiency
+                  while minimizing environmental impact.
+                </p>
+              </div>
+
+              <div class="faq-container px-xl-5" data-aos="fade-up"
+                data-aos-delay="200">
+                <!-- Faq Item 1 -->
+                <div class="faq-item faq-active">
+                  <h3><span>01</span> Comprehensive Fleet Monitoring</h3>
+                  <div class="faq-content">
+                    <p>Our all-in-one fleet management solution provides
+                      real-time monitoring of drivers, vehicles, and routes,
+                      ensuring fleet owners maintain complete control over their
+                      operations.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <!-- Faq Item 2 -->
+                <div class="faq-item">
+                  <h3><span>02</span> Modular & Scalable Design</h3>
+                  <div class="faq-content">
+                    <p>Our flexible system grows with your business, making it
+                      suitable for small to large fleets. It offers a range of
+                      configurations to match your unique operational needs.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <!-- Faq Item 3 -->
+                <div class="faq-item">
+                  <h3><span>03</span> Easy-to-Use Interface</h3>
+                  <div class="faq-content">
+                    <p>With user-friendly applications for fleet managers,
+                      drivers, and passengers, DRB’s platform makes fleet
+                      management accessible and straightforward, even for
+                      non-technical users.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+              </div>
+            </div>
+
+            <!-- Image Section -->
+            <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+              <img src="assets/img/why-us.png" class="img-fluid"
+                alt="Why Choose DRB?" data-aos="zoom-in" data-aos-delay="100">
+            </div>
+          </div>
+        </div>
+      </section><!-- /Why Us Section -->
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-6 d-flex align-items-center">
+              <img src="assets/img/skills.png" class="img-fluid"
+                alt="DRB Expertise">
+            </div>
+
+            <div class="col-lg-6 pt-4 pt-lg-0 content">
+              <h3>Our Expertise in Fleet Management</h3>
+              <p class="fst-italic">
+                At DRB, we specialize in providing tailored hardware and
+                software solutions for fleet management, transportation, and
+                logistics. Our expertise lies in creating scalable, reliable
+                systems that empower businesses to enhance efficiency, improve
+                safety, and make data-driven decisions. With extensive
+                experience in automotive technologies, we deliver solutions that
+                address the real-world challenges faced by fleet owners today.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section><!-- /Skills Section -->
+
+      <!-- Services Section -->
+      <section id="services" class="services section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Services</h2>
+          <p>Innovative fleet management solutions for enhancing safety,
+            efficiency, and performance across various industries.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="row gy-4">
+
+            <!-- GPS Tracking Service -->
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up"
+              data-aos-delay="100">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-geo-alt icon"></i></div>
+                <h4><a href="service-details.html#GPSTracking"
+                    class="stretched-link">GPS Tracking</a></h4>
+                <p>Track your fleet in real-time, optimizing routes and
+                  improving operational efficiency.</p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <!-- Driver Monitoring Service -->
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-person-video3 icon"></i></div>
+                <h4><a href="service-details.html#DriverMonitoring"
+                    class="stretched-link">Driver Monitoring</a></h4>
+                <p>Monitor driver behavior to enhance safety and improve driving
+                  standards within your fleet.</p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <!-- RFID Passenger Tracking Service -->
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up"
+              data-aos-delay="300">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-card-list icon"></i></div>
+                <h4><a href="service-details.html#RFIDTracking"
+                    class="stretched-link">RFID Passenger Tracking</a></h4>
+                <p>Use RFID technology to track passengers, ensuring safety and
+                  accountability in school buses and other fleets.</p>
+              </div>
+            </div><!-- End Service Item -->
+
+            <!-- Vehicle Performance Monitoring Service -->
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up"
+              data-aos-delay="400">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-speedometer2 icon"></i></div>
+                <h4><a href="service-details.html#VehicleMonitoring"
+                    class="stretched-link">Vehicle Performance
+                    Monitoring</a></h4>
+                <p>Keep track of vehicle health with performance monitoring,
+                  maintenance alerts, and diagnostics.</p>
+              </div>
+            </div><!-- End Service Item -->
+
+          </div>
+
+        </div>
+
+      </section>
+      <!-- /Services Section -->
+
+      <!-- Call To Action Section -->
+      <section id="call-to-action"
+        class="call-to-action section dark-background">
+
+        <img src="assets/img/cta-bg.jpg" alt>
+
+        <div class="container">
+
+          <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-9 text-center text-xl-start">
+              <h3>Call To Action</h3>
+              <p>Take control of your fleet with DRB’s innovative and
+                easy-to-use fleet management solutions. Contact us today to
+                request a demo and discover how our system can revolutionize
+                your fleet operations. Your fleet deserves the best.</p>
+            </div>
+            <div class="col-xl-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle"
+                href="https://wa.me/+201001525033">Call To Action</a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- /Call To Action Section -->
+
+      <!-- Pricing Section -->
+      <section id="pricing" class="pricing section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>At DRB, we offer flexible pricing models based on the size of your
+            fleet and the services you require. Whether you're managing a school
+            bus fleet or a commercial fleet, we have a solution that fits your
+            needs. Contact us for a personalized quote and start optimizing your
+            fleet today.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+
+            <!-- Track Plan -->
+            <div class="col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pricing-item">
+                <h3>Track Plan</h3>
+                <h4><sup>EGP</sup>2000<span> / vehicle / month</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> <span>Real-time GPS
+                      tracking</span></li>
+                  <li><i class="bi bi-check"></i> <span>Vehicle performance
+                      monitoring</span></li>
+                  <li><i class="bi bi-check"></i> <span>Maintenance
+                      alerts</span></li>
+                  <li><i class="bi bi-check"></i> <span>Analytics
+                      reports</span></li>
+                  <li class="na"><i class="bi bi-x"></i> <span>Driver behavior
+                      monitoring</span></li>
+                  <li class="na"><i class="bi bi-x"></i> <span>Passenger RFID
+                      tracking</span></li>
+                </ul>
+                <a href="starter-page.html" class="buy-btn">Get Started</a>
+              </div>
+            </div><!-- End Pricing Item -->
+
+            <!-- Guard Plan -->
+            <div class="col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pricing-item featured">
+                <h3>Guard Plan</h3>
+                <h4><sup>EGP</sup>2,500<span> / vehicle / month</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> <span>Real-time GPS
+                      tracking</span></li>
+                  <li><i class="bi bi-check"></i> <span>Vehicle performance
+                      monitoring</span></li>
+                  <li><i class="bi bi-check"></i> <span>Maintenance
+                      alerts</span></li>
+                  <li><i class="bi bi-check"></i> <span>Analytics
+                      reports</span></li>
+                  <li><i class="bi bi-check"></i> <span>Driver behavior
+                      monitoring</span></li>
+                  <li class="na"><i class="bi bi-x"></i> <span>Passenger RFID
+                      tracking</span></li>
+                </ul>
+                <a href="starter-page.html" class="buy-btn">Get Started</a>
+              </div>
+            </div><!-- End Pricing Item -->
+
+            <!-- Connect Plan -->
+            <div class="col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pricing-item">
+                <h3>Connect Plan</h3>
+                <h4><sup>EGP</sup>3,500<span> / vehicle / month</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> <span>Real-time GPS
+                      tracking</span></li>
+                  <li><i class="bi bi-check"></i> <span>Vehicle performance
+                      monitoring</span></li>
+                  <li><i class="bi bi-check"></i> <span>Maintenance
+                      alerts</span></li>
+                  <li><i class="bi bi-check"></i> <span>Analytics
+                      reports</span></li>
+                  <li><i class="bi bi-check"></i> <span>Passenger RFID
+                      tracking</span></li>
+                  <li class="na"><i class="bi bi-x"></i> <span>Driver behavior
+                      monitoring</span></li>
+                </ul>
+                <a href="starter-page.html" class="buy-btn">Get Started</a>
+              </div>
+            </div><!-- End Pricing Item -->
+
+            <!-- Complete Plan -->
+            <div class="col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pricing-item">
+                <h3>Complete Plan</h3>
+                <h4><sup>EGP</sup>4,000<span> / vehicle / month</span></h4>
+                <ul>
+                  <li><i class="bi bi-check"></i> <span>Real-time GPS
+                      tracking</span></li>
+                  <li><i class="bi bi-check"></i> <span>Vehicle performance
+                      monitoring</span></li>
+                  <li><i class="bi bi-check"></i> <span>Maintenance
+                      alerts</span></li>
+                  <li><i class="bi bi-check"></i> <span>Analytics
+                      reports</span></li>
+                  <li><i class="bi bi-check"></i> <span>Driver behavior
+                      monitoring</span></li>
+                  <li><i class="bi bi-check"></i> <span>Passenger RFID
+                      tracking</span></li>
+                </ul>
+                <a href="starter-page.html" class="buy-btn">Get Started</a>
+              </div>
+            </div><!-- End Pricing Item -->
+
+          </div>
+        </div>
+
+      </section>
+      <!-- /Pricing Section -->
+
+      <!-- Team Section -->
+      <section id="team" class="team section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>Meet the team driving innovation and excellence at DRB.</p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="team-member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/team/team-1.jpg"
+                    class="img-fluid" alt></div>
+                <div class="member-info">
+                  <h4>Ahmed Rezk</h4>
+                  <span>Chief Executive Officer</span>
+                  <p>Leading DRB with a vision for innovation and sustainable
+                    growth in the automotive, supply chain, and transportation
+                    sectors.</p>
+                  <div class="social">
+                    <a href="https://x.com/ahmedrezkgabr"><i
+                        class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.facebook.com/AhmedRezk72/"><i
+                        class="bi bi-facebook"></i></a>
+                    <a href="https://github.com/ahmedrezkgabr"><i
+                        class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmedrezkgabr/"> <i
+                        class="bi bi-linkedin"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="team-member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/team/team-2.jpg"
+                    class="img-fluid" alt></div>
+                <div class="member-info">
+                  <h4>Zaynab Ahmed</h4>
+                  <span>Chief Technology Officer</span>
+                  <p>Overseeing the development of cutting-edge software and
+                    hardware solutions for DRB’s clients.</p>
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100066906471893"><i
+                        class="bi bi-facebook"></i></a>
+                    <a href="https://github.com/zaynabahmad"><i
+                        class="bi bi-github"></i></a>
+                    <a
+                      href="https://www.linkedin.com/in/zaynap-ahmad-a833b324a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <i class="bi bi-linkedin"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="team-member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/team/khaled.png"
+                    class="img-fluid" alt></div>
+                <div class="member-info">
+                  <h4>Khaled Elhares</h4>
+                  <span>Business Developer</span>
+                  <p>Managing product development to ensure seamless integration
+                    and success for DRB's clients.</p>
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+                    <a href="https://www.facebook.com/khelhares"><i
+                        class="bi bi-facebook"></i></a>
+                    <!-- <a href=""><i class="bi bi-github"></i></a> -->
+                    <a
+                      href="https://www.linkedin.com/in/khelhares?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAByAdWUB_djEfVtL7vjsKi772RpLrdM2ci4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BV6S1ji5xQiKfAS5LSkoJXA%3D%3D">
+                      <i class="bi bi-linkedin"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="team-member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/team/team-4.jpg"
+                    class="img-fluid" alt></div>
+                <div class="member-info">
+                  <h4>Omar Ali</h4>
+                  <span>Head of Operations</span>
+                  <p>Ensuring efficient operations and sustainable practices
+                    across all of DRB’s projects.</p>
+                  <div class="social">
+                    <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100009713260241"><i
+                        class="bi bi-facebook"></i></a>
+                    <a href="https://github.com/om4rrr"><i
+                        class="bi bi-github"></i></a>
+                    <a
+                      href="https://www.linkedin.com/in/omar-ali-70098a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <i class="bi bi-linkedin"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+
+          </div>
+
+        </div>
+
+      </section><!-- /Team Section -->
+
+      <!-- Testimonials Section -->
+      <!-- <section id="testimonials" class="testimonials section"> -->
+
+      <!-- Section Title -->
+      <!-- <div class="container section-title" data-aos="fade-up">
+          <h2>Customer Testimonials</h2>
+          <p>Hear from our satisfied clients who have experienced the impact of DRB's innovative fleet monitoring and management solutions.</p>
+        </div> -->
+      <!-- End Section Title -->
+
+      <!-- <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script> -->
+      <!-- <div class="swiper-wrapper"> -->
+
+      <!-- Testimonial 1 -->
+      <!-- <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                  <h3>Emily Thompson</h3>
+                  <h4>Fleet Manager, School District</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>DRB’s RFID student tracking system has been a game-changer for our school bus fleet. Parents feel more secure, and we can easily track the buses in real time. The system is easy to use and has significantly improved our operations.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div> -->
+      <!-- End Testimonial Item -->
+
+      <!-- Testimonial 2 -->
+      <!-- <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <h3>Michael Harris</h3>
+                  <h4>CEO, Logistics Company</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>We’ve been able to reduce fuel costs and optimize routes with DRB’s fleet monitoring system. Their driver behavior monitoring feature has helped us increase safety and reduce accidents. It's an essential tool for any logistics business.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div> -->
+      <!-- End Testimonial Item -->
+
+      <!-- Testimonial 3 -->
+      <!-- <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Susan Rivera</h3>
+                  <h4>Operations Manager, Taxi Fleet</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>DRB’s fleet monitoring solution has transformed the way we manage our taxi fleet. We now have complete visibility into vehicle locations and driver behavior, which has improved customer satisfaction and efficiency.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div> -->
+      <!-- End Testimonial Item -->
+
+      <!-- Testimonial 4 -->
+      <!-- <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                  <h3>David Lee</h3>
+                  <h4>Director of Transportation, Public Transit</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Integrating DRB’s solutions into our public transit operations has been seamless. We can monitor vehicle conditions, improve driver safety, and optimize routes in real time. Their customer support has also been fantastic.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div> -->
+      <!-- End Testimonial Item -->
+
+      <!-- Testimonial 5 -->
+      <!-- <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                  <h3>Linda Green</h3>
+                  <h4>Fleet Supervisor, Emergency Services</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>With DRB’s driver monitoring and vehicle tracking, we’ve been able to enhance the safety and efficiency of our emergency response vehicles. The ability to track in real-time has been critical for us.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div> -->
+      <!-- End Testimonial Item -->
+
+      <!-- </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+
+      </section> -->
+      <!-- /Testimonials Section -->
+
+      <!-- Faq 2 Section -->
+      <section id="faq-2" class="faq-2 section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Frequently Asked Questions</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+          <div class="row justify-content-center">
+
+            <div class="col-lg-10">
+
+              <div class="faq-container">
+
+                <div class="faq-item faq-active" data-aos="fade-up"
+                  data-aos-delay="200">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>What types of fleets can benefit from DRB's system?</h3>
+                  <div class="faq-content">
+                    <p>Any organization with two or more vehicles can benefit,
+                      including schools, taxis, ambulances, and rental car
+                      companies.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>How is the data from my fleet secured?</h3>
+                  <div class="faq-content">
+                    <p>We prioritize data security by using encrypted cloud
+                      services, ensuring that all fleet information remains safe
+                      and confidential.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Can the system be customized to my fleet's needs?</h3>
+                  <div class="faq-content">
+                    <p>Yes! Our system is highly modular and configurable,
+                      allowing it to adapt to fleets of different sizes and
+                      specific requirements.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+                <!-- 
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                  <div class="faq-content">
+                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div> -->
+                <!-- End Faq item-->
+
+                <!-- <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                  <i class="faq-icon bi bi-question-circle"></i>
+                  <h3>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h3>
+                  <div class="faq-content">
+                    <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div> -->
+                <!-- End Faq item-->
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section><!-- /Faq 2 Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact</h2>
+          <p>Send an Email to DRB's Team</p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-5">
+
+              <div class="info-wrap">
+                <div class="info-item d-flex" data-aos="fade-up"
+                  data-aos-delay="200">
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Address</h3>
+                    <p>Mansoura, Egypt</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <div class="info-item d-flex" data-aos="fade-up"
+                  data-aos-delay="300">
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Call Us</h3>
+                    <p>+20 100 152 5033</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <div class="info-item d-flex" data-aos="fade-up"
+                  data-aos-delay="400">
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email Us</h3>
+                    <p>drb.technology.team@gmail.com</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d37890.56295257595!2d31.037612!3d31.039283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f774e4f5bd167d%3A0xd015b11b9738d5c6!2sMansoura%2C%20Egypt!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                  frameborder="0" style="border:0; width: 100%; height: 270px;"
+                  allowfullscreen loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <form id="contact-form" method="post" class="php-email-form"
+                data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <label for="name-field" class="pb-2">Your Name</label>
+                    <input type="text" name="name" id="name-field"
+                      class="form-control" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email-field" class="pb-2">Your Email</label>
+                    <input type="email" class="form-control" name="email"
+                      id="email-field" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="subject-field" class="pb-2">Subject</label>
+                    <input type="text" class="form-control" name="subject"
+                      id="subject-field" required>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="message-field" class="pb-2">Message</label>
+                    <textarea class="form-control" name="message" rows="10"
+                      id="message-field" required></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank
+                      you!</div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+            </div><!-- End Contact Form -->
+
+            <script>
+              document.getElementById('contact-form').addEventListener('submit', function(e) {
+                e.preventDefault();  // Prevent the default form submission
+              
+                // Get the form data
+                const form = document.getElementById('contact-form');
+                const formData = new FormData(form);
+              
+                // Show loading indicator
+                document.querySelector('.loading').style.display = 'block';
+                document.querySelector('.error-message').style.display = 'none';
+                document.querySelector('.sent-message').style.display = 'none';
+              
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwpw4ikftC-RVNXbA3es7rebyyupHIc7u673N1HbM3HAQAs6V5l4OqqPT1jSOjHwRadIQ/exec';
+              
+                // Use fetch to send the form data to the Google Apps Script
+                fetch(scriptURL, {
+                  method: 'POST',
+                  body: formData,
+                })
+                .then(response => {
+                  // Hide loading and show the success message
+                  document.querySelector('.loading').style.display = 'none';
+                  document.querySelector('.sent-message').style.display = 'block';
+                  form.reset();  // Reset the form
+                })
+                .catch(error => {
+                  // Hide loading and show the error message
+                  document.querySelector('.loading').style.display = 'none';
+                  document.querySelector('.error-message').innerText = 'Error: ' + error.message;
+                  document.querySelector('.error-message').style.display = 'block';
+                });
+              });
+              </script>
+
+          </div>
+
+        </div>
+
+      </section><!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer light-background">
+
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-6">
+              <h4>Join Our Newsletter</h4>
+              <p>Subscribe to our newsletter and receive the latest news about
+                our products and services!</p>
+              <form id="newsletter-form" class="php-email-form">
+                <div class="newsletter-form">
+                  <input type="email" name="email" id="email"
+                    placeholder="Enter your email" required>
+                  <input type="submit" value="Subscribe">
+                </div>
+                <div class="loading" style="display:none;">Loading...</div>
+                <div class="error-message"
+                  style="display:none; color: red;"></div>
+                <div class="sent-message"
+                  style="display:none; color: white;">Your subscription request
+                  has been sent. Thank you!</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+          e.preventDefault();  // Prevent the default form submission
+      
+          const form = this; // Store reference to the current form
+          const loading = form.querySelector('.loading');
+          const errorMessage = form.querySelector('.error-message');
+          const sentMessage = form.querySelector('.sent-message');
+      
+          // Show loading indicator
+          loading.style.display = 'block';
+          errorMessage.style.display = 'none';
+          sentMessage.style.display = 'none';
+      
+          const formData = new FormData(form);  // Get the form data
+      
+          // Google Apps Script URL
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbxY3mBVdUwJNF6ojCeNEiOM-a9nzLC8CO-TptC7TXgWwGZLREWquj_aZl518ae2ceP7/exec';
+          
+          // Send the form data using fetch
+          fetch(scriptURL, {
+            method: 'POST',
+            body: formData,
+          })
+          .then(response => response.text()) // Change to .text() to handle plain text
+          .then(data => {
+            // Hide loading and show success message
+            loading.style.display = 'none';
+            if (data.trim() === 'OK') {
+              sentMessage.style.display = 'block';
+              form.reset();  // Reset the form
+            } else {
+              throw new Error('There was an issue with your submission: ' + data);
+            }
+          })
+          .catch(error => {
+            // Hide loading and show error message
+            loading.style.display = 'none';
+            errorMessage.innerText = 'Error: ' + error.message;
+            errorMessage.style.display = 'block';
+          });
+        });
+      </script>
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="d-flex align-items-center">
+              <span class="sitename">DRB</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Mansoura, Egypt</p>
+              <!-- <p>New York, NY 535022</p> -->
+              <p class="mt-3"><strong>Phone:</strong> <span>+20 100 152
+                  5033</span></p>
+              <p><strong>Email:</strong>
+                <span>drb.technology.team@gmail.com</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="index.html#about">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="index.html#services">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="index.html#team">Team</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="index.html#pricing">Pricing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a
+                  href="index.html#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <h4>Follow Us</h4>
+            <p>You Can Follow Us On:</p>
+            <div class="social-links d-flex">
+              <a href="https://x.com/drb_technology"><i
+                  class="bi bi-twitter-x"></i></a>
+              <a href="https://www.facebook.com/drb.technology/"><i
+                  class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/drb_technology/"><i
+                  class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/drb-tech/"><i
+                  class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">DRB</strong>
+          <span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by <a href="https://github.com/drb-tech">DRB Technical
+            Team</a>
+        </div>
+      </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+
 </html>
