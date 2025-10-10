@@ -71,19 +71,22 @@
         </div>
       </div><!-- End Page Title -->
 
-      <!-- Demo Request Section -->
-      <section id="request-demo" class="contact section">
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+
         <div class="container" data-aos="fade-up">
 
           <div class="row gy-4 justify-content-center">
+
             <div class="col-lg-8">
               <div class="info-item text-center">
                 <p>Fill out the form below and our team will contact you to
                   schedule a personalized demo.</p>
               </div>
-
-              <form id="demo-form" class="php-email-form">
+              <form id="contact-form" method="post" class="php-email-form"
+                data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-3">
+
                   <div class="col-md-6">
                     <input type="text" name="name" class="form-control"
                       placeholder="Your Name" required>
@@ -105,23 +108,60 @@
                       placeholder="Tell us about your fleet or requirements"
                       required></textarea>
                   </div>
-                  <div class="col-12 text-center">
-                    <div class="loading" style="display:none;">Loading...</div>
-                    <div class="error-message"
-                      style="display:none; color: red;"></div>
-                    <div class="sent-message"
-                      style="display:none; color: green;">Thank you! Your demo
-                      request has been sent successfully.</div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your Request has been sent. Thank
+                      you!</div>
+
                     <button type="submit">Send Request</button>
                   </div>
+
                 </div>
               </form>
-            </div>
+            </div><!-- End Contact Form -->
+
+            <script>
+              document.getElementById('contact-form').addEventListener('submit', function(e) {
+                e.preventDefault();  // Prevent the default form submission
+              
+                // Get the form data
+                const form = document.getElementById('contact-form');
+                const formData = new FormData(form);
+              
+                // Show loading indicator
+                document.querySelector('.loading').style.display = 'block';
+                document.querySelector('.error-message').style.display = 'none';
+                document.querySelector('.sent-message').style.display = 'none';
+              
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwpw4ikftC-RVNXbA3es7rebyyupHIc7u673N1HbM3HAQAs6V5l4OqqPT1jSOjHwRadIQ/exec';
+              
+                // Use fetch to send the form data to the Google Apps Script
+                fetch(scriptURL, {
+                  method: 'POST',
+                  body: formData,
+                })
+                .then(response => {
+                  // Hide loading and show the success message
+                  document.querySelector('.loading').style.display = 'none';
+                  document.querySelector('.sent-message').style.display = 'block';
+                  form.reset();  // Reset the form
+                })
+                .catch(error => {
+                  // Hide loading and show the error message
+                  document.querySelector('.loading').style.display = 'none';
+                  document.querySelector('.error-message').innerText = 'Error: ' + error.message;
+                  document.querySelector('.error-message').style.display = 'block';
+                });
+              });
+              </script>
+
           </div>
 
         </div>
-      </section>
-      <!-- /Demo Request Section -->
+
+      </section><!-- /Contact Section -->
 
     </main>
 
